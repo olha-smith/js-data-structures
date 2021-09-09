@@ -1,3 +1,7 @@
+/**
+    Implementation of Doubly Linked List
+*/
+
 class LinkedList {
 
     constructor() {
