@@ -2,6 +2,8 @@
     Implementation of Doubly Linked List
 */
 
+const Node = require('./Node.js')
+
 class LinkedList {
 
     constructor() {
