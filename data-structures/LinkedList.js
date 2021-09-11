@@ -2,7 +2,7 @@
     Implementation of Doubly Linked List
 */
 
-const Node = require('./Node.js')
+const Node = require('./DoublyNode.js')
 
 class LinkedList {
 
@@ -140,4 +140,4 @@ class LinkedList {
 
 }
 
-module.exports = LinkedList;
+module.exports = LinkedList

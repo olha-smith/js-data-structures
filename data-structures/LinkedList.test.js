@@ -1,6 +1,8 @@
-const LinkedList = require('./LinkedList.js');
+const LinkedList = require('./LinkedList.js')
 
-test('empty list - size is 0', () => {
+test('test list constructor', () => {
     const list = new LinkedList()
-    expect(list.size).toBe(0);
-});
+    expect(list.size).toBe(0)
+    expect(list.tail).toBe(null)
+    expect(list.head).toBe(null)
+})
